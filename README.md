@@ -39,11 +39,9 @@ Follow these steps to clone the repository and run the application locally:
 1.  **Clone the Repository:**
     Open your terminal and run:
     ```bash
-    git clone <YOUR_REPOSITORY_URL_HERE>
-    cd PersonalFinanceTracker
+    git clone https://github.com/BYUMVUHOREAimable/MobileNE2025Practical.git
+    cd MobileNE2025Practical
     ```
-    *(Replace `<YOUR_REPOSITORY_URL_HERE>` with the actual URL of your Git repository if you have one. If you're just sharing the code, users will download/copy it and then navigate into the `PersonalFinanceTracker` directory.)*
-
 2.  **Install Dependencies:**
     Navigate into the project directory (`PersonalFinanceTracker`) if you haven't already, then:
     Using npm:

@@ -1,4 +1,3 @@
-// navigation/AppNavigator.js
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -8,8 +7,8 @@ import LoginScreen from "../screens/LoginScreen";
 import ExpenseListScreen from "../screens/ExpenseListScreen";
 import AddExpenseScreen from "../screens/AddExpenseScreen";
 import ExpenseDetailScreen from "../screens/ExpenseDetailScreen";
-import EditExpenseScreen from "../screens/EditExpenseScreen"; // Ensure this is imported
-import SetBudgetScreen from '../screens/SetBudgetScreen';   // Ensure this is imported
+import EditExpenseScreen from "../screens/EditExpenseScreen";
+import SetBudgetScreen from '../screens/SetBudgetScreen'; 
 import { ActivityIndicator, View, StyleSheet } from "react-native";
 
 const Stack = createStackNavigator();
@@ -83,7 +82,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: '#f8f9fa', // Match other screen backgrounds
+    backgroundColor: '#f8f9fa',
   },
 });
 
